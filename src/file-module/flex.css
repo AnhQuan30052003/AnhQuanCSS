@@ -1,0 +1,38 @@
+.flex-x-y {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-x,
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-y,
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.align-items-end {
+  align-items: end;
+}
