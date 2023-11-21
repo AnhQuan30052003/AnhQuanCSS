@@ -6,4 +6,4 @@
 
 * Link từ HTML đến file *style-main.css* trong folder *file-main* để sử dụng.
 * Có thể tuỳ chỉnh thêm css trong các file .css của folder *file-module*.
-* Folder *production* giúp tạo code css với nhiều giá tị thông qua C++.
+* Folder *production* giúp tạo code css với nhiều giá trị thông qua C++.
