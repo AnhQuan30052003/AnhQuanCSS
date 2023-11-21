@@ -1,0 +1,51 @@
+.outline-none {
+  outline: none;
+}
+
+.border {
+  border: solid 1px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.round-50p {
+  border-radius: 50%;
+}
+
+.round-100p {
+  border-radius: 100%;
+}
+
+.border-top {
+  border-top: solid 1px !important;
+}
+
+.border-bottom {
+  border-bottom: solid 1px !important;
+}
+
+.border-left {
+  border-left: solid 1px !important;
+}
+
+.border-right {
+  border-right: solid 1px !important;
+}
+
+.border-top-none {
+  border-top: none !important;
+}
+
+.border-bottom-none {
+  border-bottom: none !important;
+}
+
+.border-left-none {
+  border-left: none !important;
+}
+
+.border-right-none {
+  border-right: none !important;
+}

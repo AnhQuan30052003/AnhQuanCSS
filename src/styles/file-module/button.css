@@ -1,0 +1,18 @@
+.btn {
+  height: 30px;
+  transition: 0.25s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
