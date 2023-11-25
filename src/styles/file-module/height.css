@@ -2,6 +2,10 @@
   height: 0;
 }
 
+.h-50p {
+  height: 50%;
+}
+
 .h-auto {
   height: auto;
 }

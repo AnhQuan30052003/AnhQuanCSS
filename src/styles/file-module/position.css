@@ -21,6 +21,9 @@
 .top-0 {
   top: 0 !important;
 }
+.top-0 {
+  top: 0 !important;
+}
 
 .top-full {
   top: 100% !important;
@@ -50,6 +53,9 @@
   right: 100% !important;
 }
 
-.translate-center {
+.translate-x-y {
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
+

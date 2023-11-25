@@ -5,6 +5,10 @@
   &:hover {
     opacity: 0.5;
   }
+
+  &:active {
+    transform: translateY(10px);
+  }
 }
 
 .btn-success {
