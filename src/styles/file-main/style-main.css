@@ -14,3 +14,10 @@
 @import '../file-module/z-index.css';
 @import '../file-module/padding.css';
 @import '../file-module/margin.css';
+
+/* default */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
