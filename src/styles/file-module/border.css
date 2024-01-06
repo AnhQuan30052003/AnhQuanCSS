@@ -2,19 +2,23 @@
   outline: none;
 }
 
+.border-none {
+  border: none !important
+}
+
 .border {
   border: solid 1px;
 }
 
-.rounded {
+.rounder {
   border-radius: 5px;
 }
 
-.round-50p {
+.rounder-50p {
   border-radius: 50%;
 }
 
-.round-100p {
+.rounder-full {
   border-radius: 100%;
 }
 
