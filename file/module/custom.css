@@ -1,7 +1,7 @@
 .container {
   margin-left: auto !important;
   margin-right: auto !important;
-  max-width: calc(var(--max-width-container));
+  max-width: var(--max-width-container);
 }
 
 .bo-none {
