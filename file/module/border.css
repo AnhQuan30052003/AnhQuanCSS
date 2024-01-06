@@ -1,55 +1,67 @@
-.outline-none {
-  outline: none;
-}
+.outline-none { outline: none; }
+.border { border: solid 1px; }
+.border-none { border: none !important }
 
-.border-none {
-  border: none !important
-}
+.border-left { border-left: solid 1px !important; }
+.border-right { border-right: solid 1px !important; }
+.border-top { border-top: solid 1px !important; }
+.border-bottom { border-bottom: solid 1px !important; }
 
-.border {
-  border: solid 1px;
-}
+.border-left-none { border-left: none !important; }
+.border-right-none { border-right: none !important; }
+.border-top-none { border-top: none !important; }
+.border-bottom-none { border-bottom: none !important; }
 
-.rounder {
-  border-radius: 5px;
-}
+.rounder-50p { border-radius: 50%; }
+.rounder-full { border-radius: 100%; }
 
-.rounder-50p {
-  border-radius: 50%;
-}
-
-.rounder-full {
-  border-radius: 100%;
-}
-
-.border-top {
-  border-top: solid 1px !important;
-}
-
-.border-bottom {
-  border-bottom: solid 1px !important;
-}
-
-.border-left {
-  border-left: solid 1px !important;
-}
-
-.border-right {
-  border-right: solid 1px !important;
-}
-
-.border-top-none {
-  border-top: none !important;
-}
-
-.border-bottom-none {
-  border-bottom: none !important;
-}
-
-.border-left-none {
-  border-left: none !important;
-}
-
-.border-right-none {
-  border-right: none !important;
-}
+.rounder-1 { border-radius: 1px; }
+.rounder-2 { border-radius: 2px; }
+.rounder-3 { border-radius: 3px; }
+.rounder-4 { border-radius: 4px; }
+.rounder-5 { border-radius: 5px; }
+.rounder-6 { border-radius: 6px; }
+.rounder-7 { border-radius: 7px; }
+.rounder-8 { border-radius: 8px; }
+.rounder-9 { border-radius: 9px; }
+.rounder-10 { border-radius: 10px; }
+.rounder-11 { border-radius: 11px; }
+.rounder-12 { border-radius: 12px; }
+.rounder-13 { border-radius: 13px; }
+.rounder-14 { border-radius: 14px; }
+.rounder-15 { border-radius: 15px; }
+.rounder-16 { border-radius: 16px; }
+.rounder-17 { border-radius: 17px; }
+.rounder-18 { border-radius: 18px; }
+.rounder-19 { border-radius: 19px; }
+.rounder-20 { border-radius: 20px; }
+.rounder-21 { border-radius: 21px; }
+.rounder-22 { border-radius: 22px; }
+.rounder-23 { border-radius: 23px; }
+.rounder-24 { border-radius: 24px; }
+.rounder-25 { border-radius: 25px; }
+.rounder-26 { border-radius: 26px; }
+.rounder-27 { border-radius: 27px; }
+.rounder-28 { border-radius: 28px; }
+.rounder-29 { border-radius: 29px; }
+.rounder-30 { border-radius: 30px; }
+.rounder-31 { border-radius: 31px; }
+.rounder-32 { border-radius: 32px; }
+.rounder-33 { border-radius: 33px; }
+.rounder-34 { border-radius: 34px; }
+.rounder-35 { border-radius: 35px; }
+.rounder-36 { border-radius: 36px; }
+.rounder-37 { border-radius: 37px; }
+.rounder-38 { border-radius: 38px; }
+.rounder-39 { border-radius: 39px; }
+.rounder-40 { border-radius: 40px; }
+.rounder-41 { border-radius: 41px; }
+.rounder-42 { border-radius: 42px; }
+.rounder-43 { border-radius: 43px; }
+.rounder-44 { border-radius: 44px; }
+.rounder-45 { border-radius: 45px; }
+.rounder-46 { border-radius: 46px; }
+.rounder-47 { border-radius: 47px; }
+.rounder-48 { border-radius: 48px; }
+.rounder-49 { border-radius: 49px; }
+.rounder-50 { border-radius: 50px; }

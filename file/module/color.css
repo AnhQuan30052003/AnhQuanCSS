@@ -1,31 +1,8 @@
-.text-red {
-  color: red;
-}
-
-.text-green {
-  color: green;
-}
-
-.text-gray {
-  color: gray;
-}
-
-.text-blue {
-  color: blue;
-}
-
-.text-yellow {
-  color: yellow;
-}
-
-.text-black {
-  color: black;
-}
-
-.text-white {
-  color: white;
-}
-
-.text-orange {
-  color: orange;
-}
+.text-red { color: red; } 
+.text-green { color: green; }
+.text-gray { color: gray; }
+.text-blue { color: blue; }
+.text-yellow { color: yellow; }
+.text-black { color: black; }
+.text-white { color: white; }
+.text-orange { color: orange; }

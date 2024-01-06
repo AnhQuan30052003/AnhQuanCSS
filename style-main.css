@@ -1,9 +1,9 @@
-@import './file/custom/custom.css';
-@import './file/custom/default.css';
-
+@import './file/module/default.css';
+@import './file/module/custom.css';
 @import './file/module/border.css';
 @import './file/module/button.css';
 @import './file/module/color.css';
+@import './file/module/background.css';
 @import './file/module/cursor.css';
 @import './file/module/display.css';
 @import './file/module/flex.css';
@@ -17,11 +17,3 @@
 @import './file/module/z-index.css';
 @import './file/module/padding.css';
 @import './file/module/margin.css';
-
-#anhquan {
-  font-size: 50px;
-  font-weight: 700;
-  text-decoration: underline;
-  color: red;
-  background-color: yellow;
-}

@@ -2,30 +2,32 @@
 #include <fstream>
 using namespace std;
 
-// void TaoClass();
-
 int main() {
   system("cls");
 
-  string pathFile, fileName;
+  string pathFile, fileName, css, tenClass, thuocTinh, donVi, nhanManh, am;
   int soLanLap, giaTriBatDau;
-  string css, tenClass, thuocTinh, donVi, nhanManh;
 
-  fileName = "flex.css";
+  fileName = "position.css";
   pathFile = "../module/" + fileName;
   auto moFileDe = ios::app;
 
   giaTriBatDau = 1;
-  soLanLap = 50;
+  soLanLap = 100;
 
-  tenClass = ".gap";
-  thuocTinh = "gap";
+  tenClass = "bottom";
+  thuocTinh = "bottom";
   donVi = "px";
-  nhanManh = ""; // !important
+
+  am = "co"; // co or khong
+  if (am.length() != 0) am = "-";
+
+  nhanManh = "co"; // co or khong
+  if (nhanManh.length() != 0) nhanManh = " !important";
 
   fstream file(pathFile, moFileDe);
-  for (short i = 1; i <= soLanLap; i++) {
-    css = tenClass + "-" + to_string(i) + " { " + thuocTinh + ": " + to_string(i) + donVi + nhanManh + "; }";
+  for (short i = giaTriBatDau; i <= soLanLap; i++) {
+    css = "." + am + tenClass + "-" + to_string(i) + " { " + thuocTinh + ": " + am + to_string(i) + donVi + nhanManh + "; }";
     file << css << endl;
     giaTriBatDau += 1;
   }
