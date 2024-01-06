@@ -12,7 +12,7 @@ int main() {
   string css, tenClass, thuocTinh, donVi, nhanManh;
 
   fileName = "flex.css";
-  pathFile = "../file-module/" + fileName;
+  pathFile = "../module/" + fileName;
   auto moFileDe = ios::app;
 
   giaTriBatDau = 1;
