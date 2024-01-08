@@ -214,4 +214,4 @@
 .rounder-97p { border-radius: 97%; }
 .rounder-98p { border-radius: 98%; }
 .rounder-99p { border-radius: 99%; }
-.rounder-100p { border-radius: 100%; }
+.rounder-100p, .rounder-full { border-radius: 100%; }
