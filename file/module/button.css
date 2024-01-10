@@ -1,10 +1,10 @@
 .btn {
-  height: 30px;
   transition: 0.25s;
-  padding: 5px 7px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
+
 .btn-hover-opacity:hover { opacity: 0.5; }
 .btn-click:active { transform: translateY(10px); }
 
