@@ -1,0 +1,6 @@
+@media (min-width: 1280px) {
+  .xl-text-left { text-align: left !important; }
+  .xl-text-center { text-align: center !important; }
+  .xl-text-right { text-align: right !important; }
+  .xl-text-unset { text-align: unset !important; }
+}

@@ -1,0 +1,9 @@
+@media (min-width: 1280px) {
+  .xl-fw-100{ font-weight: 100 !important; }
+  .xl-fw-200{ font-weight: 200 !important; }
+  .xl-fw-300{ font-weight: 300 !important; }
+  .xl-fw-400{ font-weight: 400 !important; }
+  .xl-fw-500{ font-weight: 500 !important; }
+  .xl-fw-600{ font-weight: 600 !important; }
+  .xl-fw-700{ font-weight: 700 !important; }
+}

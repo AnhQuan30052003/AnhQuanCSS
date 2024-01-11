@@ -1,0 +1,11 @@
+@media (min-width: 1280px) {
+  .xl-bg-transparent { background-color: transparent !important; }
+  .xl-bg-red { background-color: red !important; }
+  .xl-bg-green { background-color: green !important; }
+  .xl-bg-gray { background-color: gray !important; }
+  .xl-bg-blue { background-color: blue !important; }
+  .xl-bg-yellow { background-color: yellow !important; }
+  .xl-bg-black { background-color: black !important; }
+  .xl-bg-white { background-color: white !important; }
+  .xl-bg-orange { background-color: orange !important; }
+}

@@ -1,0 +1,7 @@
+@media (min-width: 1536px) {
+  .xxl-flex { display: flex !important; }
+  .xxl-hidden { display: none !important; }
+  .xxl-block { display: block !important; }
+  .xxl-inline-block { display: inline-block !important; }
+  .xxl-inline { display: inline !important; }
+}

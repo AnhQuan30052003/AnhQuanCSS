@@ -1,0 +1,7 @@
+@media (min-width: 1280px) {
+  .xl-flex { display: flex !important; }
+  .xl-hidden { display: none !important; }
+  .xl-block { display: block !important; }
+  .xl-inline-block { display: inline-block !important; }
+  .xl-inline { display: inline !important; }
+}

@@ -1,0 +1,6 @@
+@media (min-width: 1536px) {
+  .xxl-text-left { text-align: left !important; }
+  .xxl-text-center { text-align: center !important; }
+  .xxl-text-right { text-align: right !important; }
+  .xxl-text-unset { text-align: unset !important; }
+}

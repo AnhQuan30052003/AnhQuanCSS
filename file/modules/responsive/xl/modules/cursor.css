@@ -1,0 +1,6 @@
+@media (min-width: 1280px) {
+  .xl-cursor-pointer { cursor: pointer !important }
+  .xl-cursor-auto { cursor: auto !important }
+  .xl-cursor-none { cursor: none !important }
+  .xl-cursor-default { cursor: default !important }
+}

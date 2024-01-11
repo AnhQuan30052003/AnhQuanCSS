@@ -26,8 +26,8 @@
 @import './file/modules/basic/object-fit.css';
 
 /* File responsive */
-@import './file/modules/responsive/sm/style-ms.css';
+@import './file/modules/responsive/sm/style-sm.css';
 @import './file/modules/responsive/md/style-md.css';
 @import './file/modules/responsive/lg/style-lg.css';
 @import './file/modules/responsive/xl/style-xl.css';
-@import './file/modules/responsive/2xl/style-2xl.css';
+@import './file/modules/responsive/xxl/style-xxl.css';

@@ -1,0 +1,7 @@
+@media (min-width: 1536px) {
+  .xxl-object-fit-none { object-fit: none !important; }
+  .xxl-object-fit-cover { object-fit: cover !important; }
+  .xxl-object-fit-contain { object-fit: contain !important; }
+  .xxl-object-fit-fill { object-fit: fill !important; }
+  .xxl-object-fit-scale-down { object-fit: scale-down !important; }
+}

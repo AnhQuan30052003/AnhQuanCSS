@@ -1,0 +1,10 @@
+@media (min-width: 1280px) {
+  .xl-text-red { color: red !important; } 
+  .xl-text-green { color: green !important; }
+  .xl-text-gray { color: gray !important; }
+  .xl-text-blue { color: blue !important; }
+  .xl-text-yellow { color: yellow !important; }
+  .xl-text-black { color: black !important; }
+  .xl-text-white { color: white !important; }
+  .xl-text-orange { color: orange !important; }
+}

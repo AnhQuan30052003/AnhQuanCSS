@@ -1,0 +1,7 @@
+@media (min-width: 1280px) {
+  .xl-object-fit-none { object-fit: none !important; }
+  .xl-object-fit-cover { object-fit: cover !important; }
+  .xl-object-fit-contain { object-fit: contain !important; }
+  .xl-object-fit-fill { object-fit: fill !important; }
+  .xl-object-fit-scale-down { object-fit: scale-down !important; }
+}

@@ -1,0 +1,6 @@
+@media (min-width: 1536px) {
+  .xxl-cursor-pointer { cursor: pointer !important }
+  .xxl-cursor-auto { cursor: auto !important }
+  .xxl-cursor-none { cursor: none !important }
+  .xxl-cursor-default { cursor: default !important }
+}

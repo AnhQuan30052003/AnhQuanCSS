@@ -1,0 +1,9 @@
+@media (min-width: 1536px) {
+  .xxl-fw-100{ font-weight: 100 !important; }
+  .xxl-fw-200{ font-weight: 200 !important; }
+  .xxl-fw-300{ font-weight: 300 !important; }
+  .xxl-fw-400{ font-weight: 400 !important; }
+  .xxl-fw-500{ font-weight: 500 !important; }
+  .xxl-fw-600{ font-weight: 600 !important; }
+  .xxl-fw-700{ font-weight: 700 !important; }
+}

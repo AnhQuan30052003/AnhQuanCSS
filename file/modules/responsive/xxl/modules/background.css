@@ -1,0 +1,11 @@
+@media (min-width: 1536px) {
+  .xxl-bg-transparent { background-color: transparent !important; }
+  .xxl-bg-red { background-color: red !important; }
+  .xxl-bg-green { background-color: green !important; }
+  .xxl-bg-gray { background-color: gray !important; }
+  .xxl-bg-blue { background-color: blue !important; }
+  .xxl-bg-yellow { background-color: yellow !important; }
+  .xxl-bg-black { background-color: black !important; }
+  .xxl-bg-white { background-color: white !important; }
+  .xxl-bg-orange { background-color: orange !important; }
+}
