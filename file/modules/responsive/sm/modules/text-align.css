@@ -1,0 +1,6 @@
+@media (min-width: 640px) {
+  .sm-text-left { text-align: left !important; }
+  .sm-text-center { text-align: center !important; }
+  .sm-text-right { text-align: right !important; }
+  .sm-text-unset { text-align: unset !important; }
+}

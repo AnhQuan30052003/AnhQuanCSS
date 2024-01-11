@@ -1,0 +1,10 @@
+@media (min-width: 640px) {
+  .sm-text-red { color: red !important; } 
+  .sm-text-green { color: green !important; }
+  .sm-text-gray { color: gray !important; }
+  .sm-text-blue { color: blue !important; }
+  .sm-text-yellow { color: yellow !important; }
+  .sm-text-black { color: black !important; }
+  .sm-text-white { color: white !important; }
+  .sm-text-orange { color: orange !important; }
+}

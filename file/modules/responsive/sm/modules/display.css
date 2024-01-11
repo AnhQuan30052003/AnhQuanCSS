@@ -1,0 +1,7 @@
+@media (min-width: 640px) {
+  .sm-flex { display: flex !important; }
+  .sm-hidden { display: none !important; }
+  .sm-block { display: block !important; }
+  .sm-inline-block { display: inline-block !important; }
+  .sm-inline { display: inline !important; }
+}
