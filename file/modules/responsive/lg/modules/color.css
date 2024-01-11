@@ -1,0 +1,10 @@
+@media (min-width: 1024px) {
+  .lg-text-red { color: red !important; } 
+  .lg-text-green { color: green !important; }
+  .lg-text-gray { color: gray !important; }
+  .lg-text-blue { color: blue !important; }
+  .lg-text-yellow { color: yellow !important; }
+  .lg-text-black { color: black !important; }
+  .lg-text-white { color: white !important; }
+  .lg-text-orange { color: orange !important; }
+}

@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .lg-object-fit-none { object-fit: none !important; }
+  .lg-object-fit-cover { object-fit: cover !important; }
+  .lg-object-fit-contain { object-fit: contain !important; }
+  .lg-object-fit-fill { object-fit: fill !important; }
+  .lg-object-fit-scale-down { object-fit: scale-down !important; }
+}

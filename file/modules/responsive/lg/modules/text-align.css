@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+  .lg-text-left { text-align: left !important; }
+  .lg-text-center { text-align: center !important; }
+  .lg-text-right { text-align: right !important; }
+  .lg-text-unset { text-align: unset !important; }
+}

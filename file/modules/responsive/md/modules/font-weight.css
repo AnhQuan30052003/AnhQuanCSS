@@ -1,9 +1,9 @@
 @media (min-width: 768px) {
-  .sm-fw-100{ font-weight: 100 !important; }
-  .sm-fw-200{ font-weight: 200 !important; }
-  .sm-fw-300{ font-weight: 300 !important; }
-  .sm-fw-400{ font-weight: 400 !important; }
-  .sm-fw-500{ font-weight: 500 !important; }
-  .sm-fw-600{ font-weight: 600 !important; }
-  .sm-fw-700{ font-weight: 700 !important; }
+  .md-fw-100{ font-weight: 100 !important; }
+  .md-fw-200{ font-weight: 200 !important; }
+  .md-fw-300{ font-weight: 300 !important; }
+  .md-fw-400{ font-weight: 400 !important; }
+  .md-fw-500{ font-weight: 500 !important; }
+  .md-fw-600{ font-weight: 600 !important; }
+  .md-fw-700{ font-weight: 700 !important; }
 }

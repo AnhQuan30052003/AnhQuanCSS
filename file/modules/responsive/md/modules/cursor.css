@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
-  .sm-cursor-pointer { cursor: pointer !important }
-  .sm-cursor-auto { cursor: auto !important }
-  .sm-cursor-none { cursor: none !important }
-  .sm-cursor-default { cursor: default !important }
+  .md-cursor-pointer { cursor: pointer !important }
+  .md-cursor-auto { cursor: auto !important }
+  .md-cursor-none { cursor: none !important }
+  .md-cursor-default { cursor: default !important }
 }

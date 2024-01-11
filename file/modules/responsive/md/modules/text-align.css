@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
-  .sm-text-left { text-align: left !important; }
-  .sm-text-center { text-align: center !important; }
-  .sm-text-right { text-align: right !important; }
-  .sm-text-unset { text-align: unset !important; }
+  .md-text-left { text-align: left !important; }
+  .md-text-center { text-align: center !important; }
+  .md-text-right { text-align: right !important; }
+  .md-text-unset { text-align: unset !important; }
 }

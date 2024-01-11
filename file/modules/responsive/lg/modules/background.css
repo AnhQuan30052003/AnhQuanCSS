@@ -1,0 +1,11 @@
+@media (min-width: 1024px) {
+  .lg-bg-transparent { background-color: transparent !important; }
+  .lg-bg-red { background-color: red !important; }
+  .lg-bg-green { background-color: green !important; }
+  .lg-bg-gray { background-color: gray !important; }
+  .lg-bg-blue { background-color: blue !important; }
+  .lg-bg-yellow { background-color: yellow !important; }
+  .lg-bg-black { background-color: black !important; }
+  .lg-bg-white { background-color: white !important; }
+  .lg-bg-orange { background-color: orange !important; }
+}

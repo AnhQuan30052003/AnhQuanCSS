@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .lg-flex { display: flex !important; }
+  .lg-hidden { display: none !important; }
+  .lg-block { display: block !important; }
+  .lg-inline-block { display: inline-block !important; }
+  .lg-inline { display: inline !important; }
+}

@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
-  .sm-flex { display: flex !important; }
-  .sm-hidden { display: none !important; }
-  .sm-block { display: block !important; }
-  .sm-inline-block { display: inline-block !important; }
-  .sm-inline { display: inline !important; }
+  .md-flex { display: flex !important; }
+  .md-hidden { display: none !important; }
+  .md-block { display: block !important; }
+  .md-inline-block { display: inline-block !important; }
+  .md-inline { display: inline !important; }
 }

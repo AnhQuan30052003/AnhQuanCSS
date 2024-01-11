@@ -1,11 +1,11 @@
 @media (min-width: 768px) {
-  .sm-bg-transparent { background-color: transparent !important; }
-  .sm-bg-red { background-color: red !important; }
-  .sm-bg-green { background-color: green !important; }
-  .sm-bg-gray { background-color: gray !important; }
-  .sm-bg-blue { background-color: blue !important; }
-  .sm-bg-yellow { background-color: yellow !important; }
-  .sm-bg-black { background-color: black !important; }
-  .sm-bg-white { background-color: white !important; }
-  .sm-bg-orange { background-color: orange !important; }
+  .md-bg-transparent { background-color: transparent !important; }
+  .md-bg-red { background-color: red !important; }
+  .md-bg-green { background-color: green !important; }
+  .md-bg-gray { background-color: gray !important; }
+  .md-bg-blue { background-color: blue !important; }
+  .md-bg-yellow { background-color: yellow !important; }
+  .md-bg-black { background-color: black !important; }
+  .md-bg-white { background-color: white !important; }
+  .md-bg-orange { background-color: orange !important; }
 }

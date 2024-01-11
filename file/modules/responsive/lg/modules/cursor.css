@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+  .lg-cursor-pointer { cursor: pointer !important }
+  .lg-cursor-auto { cursor: auto !important }
+  .lg-cursor-none { cursor: none !important }
+  .lg-cursor-default { cursor: default !important }
+}
