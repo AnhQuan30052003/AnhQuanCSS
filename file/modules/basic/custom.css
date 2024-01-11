@@ -1,7 +1,27 @@
 .container {
   margin-left: auto !important;
   margin-right: auto !important;
-  max-width: var(--max-width-container);
+  max-width: 100%;
+  
+  @media (min-width: 640px) {
+    max-width: 600px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 750px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 992px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 1200px;
+  }
+
+  @media (min-width: 1536px) {
+    max-width: 1400px;
+  }
 }
 
 .bo-none {
