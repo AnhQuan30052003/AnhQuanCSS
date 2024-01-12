@@ -54,8 +54,8 @@
 
 .list-none { list-style: none; }
 
-.w-100vw { width: 100vw; }
-.h-100vh { height: 100vh; }
+/* .w-100vw { width: 100vw; } */
+/* .h-100vh { height: 100vh; } */
 
 .h-calc-1 { height: calc(100% - var(--h-calc-1)); }
 .h-calc-2 { height: calc(100% - var(--h-calc-2)); }
