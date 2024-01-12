@@ -18,6 +18,7 @@
 .align-items-start { align-items: start; }
 .align-items-end { align-items: end; }
 
+.gap-0 { gap: 0px; }
 .gap-1 { gap: 1px; }
 .gap-2 { gap: 2px; }
 .gap-3 { gap: 3px; }

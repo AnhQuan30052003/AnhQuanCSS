@@ -19,6 +19,7 @@
   .xl-align-items-start { align-items: start !important; }
   .xl-align-items-end { align-items: end !important; }
   
+  .xl-gap-0 { gap: 0px !important; }
   .xl-gap-1 { gap: 1px !important; }
   .xl-gap-2 { gap: 2px !important; }
   .xl-gap-3 { gap: 3px !important; }

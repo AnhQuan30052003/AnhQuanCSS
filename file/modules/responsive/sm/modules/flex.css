@@ -19,6 +19,7 @@
   .sm-align-items-start { align-items: start !important; }
   .sm-align-items-end { align-items: end !important; }
   
+  .sm-gap-0 { gap: 0px !important; }
   .sm-gap-1 { gap: 1px !important; }
   .sm-gap-2 { gap: 2px !important; }
   .sm-gap-3 { gap: 3px !important; }

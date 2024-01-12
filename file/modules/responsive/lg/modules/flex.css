@@ -19,6 +19,7 @@
   .lg-align-items-start { align-items: start !important; }
   .lg-align-items-end { align-items: end !important; }
   
+  .lg-gap-0 { gap: 0px !important; }
   .lg-gap-1 { gap: 1px !important; }
   .lg-gap-2 { gap: 2px !important; }
   .lg-gap-3 { gap: 3px !important; }

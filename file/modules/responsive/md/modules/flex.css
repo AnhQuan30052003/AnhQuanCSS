@@ -19,7 +19,7 @@
   .md-align-items-start { align-items: start !important; }
   .md-align-items-end { align-items: end !important; }
   
-  .md-gap-1 { gap: 1px !important; }
+  .md-gap-0 { gap: 0px !important; }
   .md-gap-2 { gap: 2px !important; }
   .md-gap-3 { gap: 3px !important; }
   .md-gap-4 { gap: 4px !important; }

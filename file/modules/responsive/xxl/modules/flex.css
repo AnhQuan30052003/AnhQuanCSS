@@ -19,6 +19,7 @@
   .xxl-align-items-start { align-items: start !important; }
   .xxl-align-items-end { align-items: end !important; }
   
+  .xxl-gap-0 { gap: 0px !important; }
   .xxl-gap-1 { gap: 1px !important; }
   .xxl-gap-2 { gap: 2px !important; }
   .xxl-gap-3 { gap: 3px !important; }
