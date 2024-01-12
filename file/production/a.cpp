@@ -10,20 +10,20 @@ int main() {
   string pathFile, fileName, css, tenClass, thuocTinh, donVi, nhanManh, am, dauTru, phanTram, tenClassCon1, tenClassCon2;
   int giaTriKetThuc, giaTriBatDau;
 
-  fileName = "min-width.css";
+  fileName = "test.css";
   pathFile = "../modules/basic/" + fileName;
   auto moFileDe = ios::app;
 
-  giaTriBatDau = 0;
-  giaTriKetThuc = 2000;
+  giaTriBatDau = -100;
+  giaTriKetThuc = -1;
 
-  tenClass = "min-w";
+  tenClass = "right";
   tenClassCon1 = "";
   tenClassCon2 = "";
-  thuocTinh = "min-width";
-  donVi = "px";
+  thuocTinh = "right";
+  donVi = "%";
 
-  phanTram = ""; // co or khong
+  phanTram = "co"; // co or khong
   if (phanTram.length() != 0) phanTram = "p";
 
   nhanManh = ""; // co or khong
