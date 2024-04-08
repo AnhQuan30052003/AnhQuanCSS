@@ -12,31 +12,35 @@
       border-radius: 5px;
     }
 
-    code {
-      white-space: break-word;
+    .code {
       overflow-x: scroll;
     }
   </style>
 </head>
 
+<!-- lg-w-874 -->
 <body>
   <section class="container lg-w-874">
-    <div id="codeBlock" class="w-auto border p-10">
+    <div id="codeBlock" class="w-full border p-10">
       <div class="taksbar flex justify-content-between mb-10">
         <span>Click 👇🏻</span>
-        <span><button id="btn-copy" class="p-5" onclick="copyCode()">Copy code</button></span>
+        <span><button id="btn-copy" class="p-5 cursor-pointer" onclick="copyCode()">Copy code</button></span>
       </div>
 
-      <code class="p-5 bg-gray">
-        &lt;link rel="stylesheet" href="https://anhquan30052003.github.io/AnhQuanCSS/style-main.css"&gt;
-      </code>
+      <div class="code p-5 bg-gray">
+        <code>
+          &lt;link rel="stylesheet" href="https://anhquan30052003.github.io/AnhQuanCSS/style-main.css"&gt;
+        </code>
+      </div>
     </div>
   </section>  
 
   <script>
     function copyCode() {
-      var codeToCopy = document.querySelector("code");
       var btnCopy = document.querySelector("#btn-copy");
+      btnCopy.innerHTML = "Copied !"
+
+      var codeToCopy = document.querySelector("#codeBlock .code code");
       var tempTextArea = document.createElement("textarea");
       tempTextArea.value = codeToCopy.innerText;
 
@@ -45,7 +49,6 @@
       document.execCommand('copy');
       document.body.removeChild(tempTextArea);
 
-      btnCopy.innerHTML = "Copied !"
     }
     </script>
 </body>
