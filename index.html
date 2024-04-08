@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://anhquan30052003.github.io/AnhQuanCSS/style-main.css">
+  <title>AnhQuanCSS</title>
+  <style>
+    #btn-copy {
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+
+    code {
+      white-space: break-word;
+      overflow-x: scroll;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="container lg-max-w-874">
+    <div id="codeBlock" class="w-auto border p-10">
+      <div class="taksbar flex justify-content-between mb-10">
+        <span>Click 👇🏻</span>
+        <span><button id="btn-copy" class="p-5" onclick="copyCode()">Copy code</button></span>
+      </div>
+
+      <code class="p-5 bg-gray">
+        &lt;link rel="stylesheet" href="https://anhquan30052003.github.io/AnhQuanCSS/style-main.css"&gt;
+      </code>
+    </div>
+  </section>  
+
+  <script>
+    function copyCode() {
+      var codeToCopy = document.querySelector("code");
+      var btnCopy = document.querySelector("#btn-copy");
+      var tempTextArea = document.createElement("textarea");
+      tempTextArea.value = codeToCopy.innerText;
+
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempTextArea);
+
+      btnCopy.innerHTML = "Copied !"
+    }
+    </script>
+</body>
+</html>
