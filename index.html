@@ -5,44 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://anhquan30052003.github.io/AnhQuanCSS/style-main.css">
   <title>AnhQuanCSS</title>
-  <style>
-    #btn-copy {
-      border: none;
-      outline: none;
-      border-radius: 5px;
-    }
-
-    .code {
-      overflow-x: scroll;
-      white-space: nowrap;
-    }
-  </style>
 </head>
 
-<body>
-  <section class="container lg-w-874 py-20">
-    <div id="codeBlock" class="w-full p-10">
-      <div class="taksbar flex gap-10 mb-10">
-        <span>Click 👉🏻</span>
-        <span><button id="btn-copy" class="p-5 cursor-pointer" onclick="copyCode()">Copy code</button></span>
-      </div>
-
-      <div class="code p-5 bg-gray">
-        <code class="w-full">
-          <p>&lt;link rel="stylesheet" href="https://anhquan30052003.github.io/AnhQuanCSS/style-main.css"&gt;</p>
-        </code>
-      </d>
+<body class="w-100vw h-100vh flex flex-x-y">
+  <section class="container py-20">
+    <div class="taksbar flex flex-x gap-10 mb-10">
+      <span id="getLink" class="flex align-items-center">Get link by click 👉🏻</span>
+      <span>
+        <button id="btn-copy"
+          class="p-5 cursor-pointer btn btn-hover-opacity btn-success btn-click"
+          onclick="copyCode()"
+          style="border-radius: 5px;">
+          Copy code
+        </button>
+      </span>
     </div>
   </section>  
 
   <script>
     function copyCode() {
+      var getLink = document.querySelector("#getLink");
       var btnCopy = document.querySelector("#btn-copy");
+      getLink.innerHTML = "👉🏻 Clicked 👈🏻";
       btnCopy.innerHTML = "Copied !"
 
-      var codeToCopy = document.querySelector("#codeBlock .code code");
+      var codeLink = "<link rel='stylesheet' href='https://anhquan30052003.github.io/AnhQuanCSS/style-main.css'>";
       var tempTextArea = document.createElement("textarea");
-      tempTextArea.value = codeToCopy.innerText;
+      tempTextArea.value = codeLink;
 
       document.body.appendChild(tempTextArea);
       tempTextArea.select();
