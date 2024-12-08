@@ -1,0 +1,23 @@
+.fstyle-italic {
+    font-style: italic;
+}
+
+.fstyle-normal {
+    font-style: normal;
+}
+
+.fstyle-oblique {
+    font-style: oblique;
+}
+
+.fstyle-inherit {
+    font-style: inherit;
+}
+
+.fstyle-initial {
+    font-style: initial;
+}
+
+.fstyle-unset {
+    font-style: unset !important;
+}

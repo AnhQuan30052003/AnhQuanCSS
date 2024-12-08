@@ -24,6 +24,7 @@
 @import './file/modules/basic/min-width.css';
 @import './file/modules/basic/opacity.css';
 @import './file/modules/basic/object-fit.css';
+@import './file/modules/basic/font-style.css';
 
 /* File responsive */
 @import './file/modules/responsive/sm/style-sm.css';
